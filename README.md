@@ -18,7 +18,7 @@ You can use this extension in the following 4 easy steps:
 In this example we are simulating getting the number of astronauts currently on the moon:
 
 - index.js
-```
+``` js
 let getNumberOfAstronauts =  function(cb) {
   setTimeout(function() {
     cb(null, 12);
@@ -29,12 +29,12 @@ env.addExtension('SetAsyncExtension', new SetAsyncExtension())
 ```
 
 - template.html
-```
+``` html
 {% setAsync 'numberofAstronauts', getNumberOfAstronauts, [] %}
 <p> There are {{numberofAstronauts}} in the moon right now! </p>
 ```
 - index.js
-```
+``` js
 env.render('template.html', function(err, res) {
   console.log(res);
 });
