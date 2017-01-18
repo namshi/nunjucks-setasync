@@ -1,0 +1,10 @@
+{
+  "name": "nunjucks-setAsync",
+  "version": "1.0.0",
+  "description": "Set Async tag",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "nunjucks": "^3.0.0"
+  }
+}
