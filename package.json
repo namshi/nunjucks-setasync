@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "Set Async tag",
   "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -t 700"
+  },
   "license": "MIT",
   "dependencies": {
     "nunjucks": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
   }
 }
