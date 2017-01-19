@@ -15,7 +15,7 @@ You can use this extension in the following 4 easy steps:
 - Use `{{ variable }}` to render the value of  `variable` anywhere after the `setAsync` block.
 
 # Example
-In this example we are simulating getting the number of astronauts currently on the moon:
+In this example we are simulating getting the number of astronauts currently in space with an asynchronous function:
 
 - index.js
 ``` js
@@ -31,7 +31,7 @@ env.addExtension('SetAsyncExtension', new SetAsyncExtension())
 - template.html
 ``` html
 {% setAsync 'numberofAstronauts', getNumberOfAstronauts, [] %}
-<p> There are {{numberofAstronauts}} in the moon right now! </p>
+<p> There are {{numberofAstronauts}} in space right now! </p>
 ```
 - index.js
 ``` js
