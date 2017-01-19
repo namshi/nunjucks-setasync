@@ -1,6 +1,6 @@
 {
   "name": "nunjucks-setasync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Set Async tag",
   "main": "index.js",
   "scripts": {
