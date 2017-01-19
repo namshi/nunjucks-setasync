@@ -6,6 +6,13 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha -t 700"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/namshi/nunjucks-set-async"
+  },
+  "bugs": {
+    "url": "https://github.com/namshi/nunjucks-set-async/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "nunjucks": "^3.0.0"
