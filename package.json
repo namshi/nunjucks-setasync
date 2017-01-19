@@ -1,5 +1,5 @@
 {
-  "name": "nunjucks-setAsync",
+  "name": "nunjucks-setasync",
   "version": "1.0.0",
   "description": "Set Async tag",
   "main": "index.js",
