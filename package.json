@@ -1,6 +1,6 @@
 {
   "name": "nunjucks-setasync",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Set Async tag",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/namshi/nunjucks-set-async"
+    "url": "https://github.com/namshi/nunjucks-setasync"
   },
   "bugs": {
-    "url": "https://github.com/namshi/nunjucks-set-async/issues"
+    "url": "https://github.com/namshi/nunjucks-setasync/issues"
   },
   "license": "MIT",
   "dependencies": {
