@@ -33,6 +33,13 @@ env.addExtension('SetAsyncExtension', new SetAsyncExtension())
 {% setAsync 'numberofAstronauts', getNumberOfAstronauts, [] %}
 <p> There are {{numberofAstronauts}} in space right now! </p>
 ```
+Or you can also use `setAsync` with parens as follow:
+
+``` html
+{% setAsync('numberofAstronauts', getNumberOfAstronauts, []) %}
+<p> There are {{numberofAstronauts}} in space right now! </p>
+```
+
 - index.js
 ``` js
 env.render('template.html', function(err, res) {
