@@ -2,8 +2,15 @@ function SetAsyncExtension() {
     this.tags = ['setAsync'];
 
     this.parse = function(parser, nodes, lexer) {
+        var args;
         var tok = parser.nextToken();
-        var args = parser.parseSignature(null, true);
+
+        try {
+          args = parser.parseSignature(null, false);
+        } catch(e) {
+          args = parser.parseSignature(null, true);
+        }
+
         parser.advanceAfterBlockEnd(tok.value);
 
         return new nodes.CallExtensionAsync(this, 'run', args);
